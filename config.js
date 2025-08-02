@@ -17,12 +17,13 @@ module.exports = {
   errorLog: "", 
 nodes: [
   {
-    name: "PublicNode",
-    password: "www.freelavalink.ga",
-    host: "lavalink.oops.wtf",
+    name: "ReplitNode",
+    password: "youshallnotpass",
+    host: "your-repl-name.repl.co",  // Ganti URL Replit lo
     port: 443,
     secure: true,
   },
 ],
+
 
 }
