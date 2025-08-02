@@ -10,18 +10,18 @@ module.exports = {
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
-  activityName: "YouTube Music", 
+  activityName: "Rimuru Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
-  nodes: [
-     {
-      name: "GlaceYT",
-      password: "glaceyt",
-      host: "5.39.63.207",
-      port:  8262,
-      secure: false
-    }
-  ]
+nodes: [
+  {
+    name: "PublicNode",
+    password: "www.freelavalink.ga",
+    host: "lavalink.oops.wtf",
+    port: 443,
+    secure: true,
+  },
+],
 }
