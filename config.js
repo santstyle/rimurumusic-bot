@@ -15,13 +15,13 @@ module.exports = {
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
-nodes: [
-  {
-    name: "OisinPublic",
-    host: "lavalink.oisin.xyz",
-    port: 443,
-    password: "youshallnotpass",
-    secure: true
-  }
-]
+  nodes: [
+     {
+      name: "GlaceYT",
+      password: "glaceyt",
+      host: "5.39.63.207",
+      port:  8262,
+      secure: false
+    }
+  ]
 }
